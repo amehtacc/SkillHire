@@ -130,7 +130,7 @@ export default function ExploreChallengesPage() {
                   </CardContent>
                   <CardFooter>
                     <Button className="w-full" asChild>
-                      <Link href="/challenges/1">Start Challenge</Link>
+                      <Link to="/challenges/1">Start Challenge</Link>
                     </Button>
                   </CardFooter>
                 </Card>
@@ -161,7 +161,7 @@ export default function ExploreChallengesPage() {
                   </CardContent>
                   <CardFooter>
                     <Button className="w-full" asChild>
-                      <Link href="/challenges/2">Start Challenge</Link>
+                      <Link to="/challenges/2">Start Challenge</Link>
                     </Button>
                   </CardFooter>
                 </Card>
@@ -193,7 +193,7 @@ export default function ExploreChallengesPage() {
                   </CardContent>
                   <CardFooter>
                     <Button className="w-full" asChild>
-                      <Link href="/challenges/3">Start Challenge</Link>
+                      <Link to="/challenges/3">Start Challenge</Link>
                     </Button>
                   </CardFooter>
                 </Card>
@@ -226,7 +226,7 @@ export default function ExploreChallengesPage() {
                   </CardContent>
                   <CardFooter>
                     <Button className="w-full" asChild>
-                      <Link href="/challenges/4">Start Challenge</Link>
+                      <Link to="/challenges/4">Start Challenge</Link>
                     </Button>
                   </CardFooter>
                 </Card>
@@ -258,7 +258,7 @@ export default function ExploreChallengesPage() {
                   </CardContent>
                   <CardFooter>
                     <Button className="w-full" asChild>
-                      <Link href="/challenges/5">Start Challenge</Link>
+                      <Link to="/challenges/5">Start Challenge</Link>
                     </Button>
                   </CardFooter>
                 </Card>
@@ -290,7 +290,7 @@ export default function ExploreChallengesPage() {
                   </CardContent>
                   <CardFooter>
                     <Button className="w-full" asChild>
-                      <Link href="/challenges/6">Start Challenge</Link>
+                      <Link to="/challenges/6">Start Challenge</Link>
                     </Button>
                   </CardFooter>
                 </Card>

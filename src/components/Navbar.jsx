@@ -2,6 +2,7 @@ import React from "react";
 import { Zap } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { HashLink } from "react-router-hash-link";
 
 function Navbar() {
   return (
@@ -30,31 +31,33 @@ function Navbar() {
               How It Works
             </NavLink>
 
-            <NavLink
-              to="#why-skillhire"
+            <HashLink
+              smooth
+              to="/#why-skillhire"
               className="text-base font-medium hover:text-primary"
             >
               Why SkillHire
-            </NavLink>
+            </HashLink>
 
-            <NavLink
-              to="#for-companies"
+            <HashLink
+              smooth
+              to="/#for-companies"
               className="text-base font-medium hover:text-primary"
             >
               For Companies
-            </NavLink>
+            </HashLink>
           </nav>
         </div>
         <div className="flex justify-center items-center gap-5">
           <NavLink
-            to="/login"
+            to="/auth?tab=login"
             className="text-base font-medium hover:text-primary"
           >
             Log In
           </NavLink>
 
           <Button className="bg-primary text-white text-base hover:bg-primary/90">
-            <NavLink to="/signup">Sign Up</NavLink>
+            <NavLink to="/auth?tab=signup">Sign Up</NavLink>
           </Button>
         </div>
       </div>

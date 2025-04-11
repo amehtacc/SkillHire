@@ -1,14 +1,28 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { ToastContainer } from "react-toastify";
 
 function App() {
+  const location = useLocation();
+
+  // Define routes where Navbar & Footer should be hidden
+  const hiddenRoutes = ["/auth", "/auth/candidate/dashboard"];
+
+  const shouldHideLayout = hiddenRoutes.some((route) =>
+    location.pathname.startsWith(route)
+  );
+
   return (
     <>
-      <Navbar />
+      <ToastContainer />
+
+      {!shouldHideLayout && <Navbar />}
+
       <Outlet />
-      <Footer />
+
+      {!shouldHideLayout && <Footer />}
     </>
   );
 }
