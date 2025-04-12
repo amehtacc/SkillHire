@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { CheckCircle } from "lucide-react"
-import {SkillBasedChallenges, AiMatchedJobs, ApplyAnonymously, RealFeedback,ForCompanies} from '/public/images/images.js'
+import {SkillBasedChallenges, AiMatchedJobs, ApplyAnonymously, RealFeedback} from '/public/images/images.js'
 
 export default function HowItWorks() {
   return (

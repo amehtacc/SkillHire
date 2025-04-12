@@ -12,7 +12,7 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Edit, Github, Globe, Linkedin, Mail, MapPin, X } from "lucide-react";
-import DashboardSidebar from "./DashboardSidebar.jsx";
+import CandidateSidebar from "./CandidateSidebar.jsx";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { ForCompanies } from "/public/images/images.js";
 import { Input } from "@/components/ui/input";
@@ -51,7 +51,7 @@ export default function CandidateProfile() {
   return (
     <div className="flex min-h-screen bg-muted/30">
       <div className="w-[17%]">
-        <DashboardSidebar />
+        <CandidateSidebar />
       </div>
 
       <div className="flex-1 p-6 lg:p-8">

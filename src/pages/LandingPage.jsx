@@ -362,7 +362,7 @@ export default function Home() {
       </section>
 
       {/* For Companies Section */}
-      <section className="py-16 px-20">
+      <section id="for-companies" className="py-16 px-20">
         <div className="container px-4 md:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>

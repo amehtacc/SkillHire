@@ -5,13 +5,13 @@ import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ArrowRight, Clock, Code, FileCheck, Star } from "lucide-react"
-import DashboardSidebar from "./DashboardSidebar.jsx"
+import CandidateSidebar from "./CandidateSidebar.jsx"
 
 export default function CandidateDashboard() {
   return (
     <div className="flex min-h-screen bg-muted/30">
       <div className="w-[17%]">
-      <DashboardSidebar />
+      <CandidateSidebar />
       </div>
       <div className="flex-1 p-6 lg:p-8">
         <div className="space-y-6">
@@ -252,7 +252,7 @@ export default function CandidateDashboard() {
                       </CardContent>
                       <CardFooter>
                         <Button size="sm" className="w-full" asChild>
-                          <Link href="/jobs/1">View Job</Link>
+                          <Link to="/jobs/1">View Job</Link>
                         </Button>
                       </CardFooter>
                     </Card>
@@ -281,7 +281,7 @@ export default function CandidateDashboard() {
                       </CardContent>
                       <CardFooter>
                         <Button size="sm" className="w-full" asChild>
-                          <Link href="/jobs/2">View Job</Link>
+                          <Link to="/jobs/1">View Job</Link>
                         </Button>
                       </CardFooter>
                     </Card>
@@ -310,7 +310,7 @@ export default function CandidateDashboard() {
                       </CardContent>
                       <CardFooter>
                         <Button size="sm" className="w-full" asChild>
-                          <Link href="/jobs/3">View Job</Link>
+                          <Link to="/jobs/1">View Job</Link>
                         </Button>
                       </CardFooter>
                     </Card>
@@ -343,7 +343,7 @@ export default function CandidateDashboard() {
                       </CardContent>
                       <CardFooter>
                         <Button size="sm" className="w-full" asChild>
-                          <Link href="/jobs/4">View Job</Link>
+                          <Link to="/jobs/1">View Job</Link>
                         </Button>
                       </CardFooter>
                     </Card>
@@ -376,7 +376,7 @@ export default function CandidateDashboard() {
                       </CardContent>
                       <CardFooter>
                         <Button size="sm" className="w-full" asChild>
-                          <Link href="/jobs/3">View Job</Link>
+                          <Link to="/jobs/1">View Job</Link>
                         </Button>
                       </CardFooter>
                     </Card>

@@ -1,12 +1,10 @@
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 import {
-  BarChart,
-  Code,
-  FileCheck,
+  Code2,
   LayoutDashboard,
   LogOut,
-  Settings,
+  Layers,
   User,
 } from "lucide-react";
 import {
@@ -41,9 +39,9 @@ export default function DashboardSidebar() {
             <SidebarMenuItem>
               <SidebarMenuButton
                 asChild
-                isActive={pathname === "auth/candidate/dashboard"}
+                isActive={pathname === "auth/employer/dashboard"}
               >
-                <Link to="/auth/candidate/dashboard">
+                <Link to="/auth/employer/dashboard">
                   <LayoutDashboard className="h-5 w-5" />
                   <span>Dashboard</span>
                 </Link>
@@ -53,9 +51,32 @@ export default function DashboardSidebar() {
             <SidebarMenuItem>
               <SidebarMenuButton
                 asChild
-                isActive={pathname === "auth/candidate/profile"}
+                isActive={pathname === "auth/employer/applications"}
               >
-                <Link to="/auth/candidate/profile">
+                <Link to="/auth/employer/applications">
+                  <Layers className="h-5 w-5" />
+                  <span>Applications</span>
+                </Link>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+
+            <SidebarMenuItem>
+              <SidebarMenuButton
+                asChild
+                isActive={pathname === "auth/employer/post-challenge"}
+              >
+                <Link to="/auth/employer/post-challenge">
+                  <Code2 className="h-5 w-5" />
+                  <span>Post Challenge</span>
+                </Link>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+            <SidebarMenuItem>
+              <SidebarMenuButton
+                asChild
+                isActive={pathname === "auth/employer/profile"}
+              >
+                <Link to="/auth/employer/profile">
                   <User className="h-5 w-5" />
                   <span>Profile</span>
                 </Link>
@@ -68,7 +89,7 @@ export default function DashboardSidebar() {
           <SidebarMenu>
             <SidebarMenuItem>
               <SidebarMenuButton asChild>
-                <Link to="/logout">
+                <Link to="/">
                   <LogOut className="h-5 w-5" />
                   <span>Logout</span>
                 </Link>
