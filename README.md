@@ -10,7 +10,7 @@ Here's a live demo link: [SkillHire](https://skill-hire.netlify.app/)
 
 ## 👨🏻‍🏫 Video Presentation Link
 
-Here's a video presentation link: [Presentation Link](https://your-presentation-link.com)
+Here's a video presentation link: [Presentation Link](https://drive.google.com/file/d/1CqYYGUZ65iZeFxwhZpXA26xtKdzNvsjw/view?usp=sharing)
 
 ## 🎯 Features
 
