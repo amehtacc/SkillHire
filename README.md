@@ -45,8 +45,8 @@ Here's a video presentation link: [Presentation Link](https://drive.google.com/f
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/amehtacc/Restaurants-Finder-Assistant.git
-cd restaurant-finder-assistant
+git clone https://github.com/amehtacc/SkillHire.git
+cd SkillHire
 ```
 
 ### 2️⃣ Install Dependencies
